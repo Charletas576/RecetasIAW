@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+</head>
+
+<body class="bd-example">
+    <!-- Haremos un listado de recetas. Dividiremos las recetas en filas, y cada fila tendrá 4 recetas (columnas)
+    Cada receta contendrá los siguientes elementos:
+        Cabecera con el título
+        Imagen Visual de la receta
+        Lista de ingredientes-->
+    <h1 class="text-center">Recetas Bootstrap</h1>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <div style="height: 20vh;">
+                    <h1>Ensalada César</h1>
+                    <img src="./EnsaladaCesar.jpg" class="img-fluid" alt="img-fluid">
+                </div>
+                <div style="height: 40vh;">
+                    <h2>Ingredientes:</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-action">1 lechuga romana</li>
+                        <li class="list-group-item list-group-item-action">1 pechuga de pollo a la parrilla, en tiras
+                        </li>
+                        <li class="list-group-item list-group-item-action">Crutones</li>
+                        <li class="list-group-item list-group-item-action">Queso parmesano rallado</li>
+                        <li class="list-group-item list-group-item-action">Aderezo César</li>
+                    </ul>
+                </div>
+                <div style="height: 40vh;">
+                    <h2>Instrucciones:</h2>
+                    <ul class="list-group list-group-numbered">
+                        <li class="list-group-item">Lava y corta la lechuga en trozos grandes.</li>
+                        <li class="list-group-item">En un bol grande, mezcla la lechuga con el pollo a la parrilla.</li>
+                        <li class="list-group-item">Añade los crutones y el queso parmesano.</li>
+                        <li class="list-group-item">Sirve inmediatamente.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <div class="col "></div>
+                <h1>Tacos de Pescado</h1>
+                <img src="./TacosPescado.jpeg" class="img-fluid" alt="img-fluid">
+                <h2>Ingredientes:</h2>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action">500 g de filetes de pescado (tilapia o
+                        bacalao)
+                    </li>
+                    <li class="list-group-item list-group-item-action">1 taza de harina</li>
+                    <li class="list-group-item list-group-item-action">1 huevo</li>
+                    <li class="list-group-item list-group-item-action">1 taza de pan rallado</li>
+                    <li class="list-group-item list-group-item-action">Aceite para freír</li>
+                    <li class="list-group-item list-group-item-action">12 tortillas de maíz</li>
+                    <li class="list-group-item list-group-item-action">Col rallada</li>
+                    <li class="list-group-item list-group-item-action">Limón</li>
+                    <li class="list-group-item list-group-item-action">Salsa al gusto</li>
+                </ul>
+                <h2>Instrucciones:</h2>
+                <ul class="list-group list-group-numbered">
+                    <li class="list-group-item">En un bol, mezcla la harina con el huevo para hacer una masa ligera.
+                    </li>
+                    <li class="list-group-item">Pasa los filetes de pescado por la masa y luego por el pan rallado.
+                    </li>
+                    <li class="list-group-item">Fríe los filetes en aceite caliente hasta que estén dorados y
+                        crujientes.</li>
+                    <li class="list-group-item">Escurre el exceso de aceite en papel absorbente.</li>
+                    <li class="list-group-item">Calienta las tortillas en un comal o sartén.</li>
+                    <li class="list-group-item">Arma los tacos colocando pescado en las tortillas, añade col
+                        rallada, un
+                        chorrito de limón y salsa al gusto.</li>
+                    <li class="list-group-item">Sirve caliente.</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <h1>Pasta Carbonara</h1>
+                <img src="./PastaCarbonara.jpeg" class="img-fluid" alt="img-fluid">
+                <h2>Ingredientes:</h2>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action">250 g de pasta (espaguetis o fettuccine)</li>
+                    <li class="list-group-item list-group-item-action">150 g de panceta o tocino, en trozos</li>
+                    <li class="list-group-item list-group-item-action">2 huevos</li>
+                    <li class="list-group-item list-group-item-action">1 taza de queso parmesano rallado</li>
+                    <li class="list-group-item list-group-item-action">2 dientes de ajo, picados</li>
+                    <li class="list-group-item list-group-item-action">Sal y pimienta al gusto</li>
+                    <li class="list-group-item list-group-item-action">Aceite de oliva</li>
+                </ul>
+                <h2>Instrucciones:</h2>
+                <ul class="list-group list-group-numbered">
+                    <li class="list-group-item">Cocina la pasta según las instrucciones del paquete. Reserva.</li>
+                    <li class="list-group-item">En una sartén grande, calienta un poco de aceite de oliva y cocina
+                        la
+                        panceta hasta que esté crujiente.</li>
+                    <li class="list-group-item">Agrega el ajo y cocina por 1 minuto más.</li>
+                    <li class="list-group-item">En un bol, bate los huevos y mezcla con el queso parmesano.</li>
+                    <li class="list-group-item">Escurre la pasta y añádela a la sartén con la panceta. Mezcla bien.
+                    </li>
+                    <li class="list-group-item">Retira la sartén del fuego y añade la mezcla de huevos y queso,
+                        removiendo rápidamente para que la salsa se espese sin que los huevos se coagulen.</li>
+                    <li class="list-group-item">Sazona con sal y pimienta al gusto. Sirve caliente.</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <h1>Brownies de Chocolate</h1>
+                <img src="./BrownieChoco.jpg" class="img-fluid" alt="img-fluid">
+                <h2>Ingredientes:</h2>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action">150 g de mantequilla</li>
+                    <li class="list-group-item list-group-item-action">200 g de azúcar</li>
+                    <li class="list-group-item list-group-item-action">2 huevos</li>
+                    <li class="list-group-item list-group-item-action">1 cucharadita de extracto de vainilla</li>
+                    <li class="list-group-item list-group-item-action">100 g de cacao en polvo</li>
+                    <li class="list-group-item list-group-item-action">100 g de harina</li>
+                    <li class="list-group-item list-group-item-action">1/2 cucharadita de sal</li>
+                    <li class="list-group-item list-group-item-action">1/2 cucharadita de polvo de hornear</li>
+                    <li class="list-group-item list-group-item-action">100 g de nueces (opcional)</li>
+                </ul>
+                <h2>Instrucciones:</h2>
+                <ul class="list-group list-group-numbered">
+                    <li class="list-group-item">Precalienta el horno a 180°C (350°F) y engrasa un molde para
+                        hornear.
+                    </li>
+                    <li class="list-group-item">Derrite la mantequilla en una cacerola a fuego bajo. Retira del
+                        fuego y
+                        mezcla el azúcar, los huevos y la vainilla.</li>
+                    <li class="list-group-item">Mezcla el cacao, la harina, la sal y el polvo de hornear en otro
+                        bol.
+                        Incorpora esta mezcla a la mezcla de mantequilla y azúcar hasta que esté bien combinado.
+                    </li>
+                    <li class="list-group-item">Si lo deseas, añade las nueces y mezcla bien.</li>
+                    <li class="list-group-item">Vierte la mezcla en el molde engrasado y hornea durante 20-25
+                        minutos, o
+                        hasta que un palillo insertado en el centro salga con algunas migas húmedas.</li>
+                    <li class="list-group-item">Deja enfriar antes de cortar en cuadrados y servir.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <h1>Pollo al Curry</h1>
+                <img src="./PolloCurry.jpeg" class="img-fluid" alt="img-fluid">
+                <h2>Ingredientes:</h2>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action">500 g de pechugas de pollo, cortadas en
+                        trozos</li>
+                    <li class="list-group-item list-group-item-action">1 cebolla grande, picada</li>
+                    <li class="list-group-item list-group-item-action">2 dientes de ajo, picados</li>
+                    <li class="list-group-item list-group-item-action">1 cucharada de jengibre fresco, rallado</li>
+                    <li class="list-group-item list-group-item-action">2 cucharadas de curry en polvo</li>
+                    <li class="list-group-item list-group-item-action">400 ml de leche de coco</li>
+                    <li class="list-group-item list-group-item-action">2 cucharadas de aceite vegetal</li>
+                    <li class="list-group-item list-group-item-action">Sal y pimienta al gusto</li>
+                </ul>
+                <h2>Instrucciones:</h2>
+                <ul class="list-group list-group-numbered">
+                    <li class="list-group-item">Calienta el aceite en una sartén grande y sofríe la cebolla hasta
+                        que esté dorada.</li>
+                    <li class="list-group-item">Añade el ajo y el jengibre, y cocina por un minuto más.</li>
+                    <li class="list-group-item">Incorpora el curry en polvo y mezcla bien con los ingredientes.</li>
+                    <li class="list-group-item">Agrega los trozos de pollo y cocina hasta que estén dorados por
+                        todos lados.</li>
+                    <li class="list-group-item">Vierte la leche de coco y sazona con sal y pimienta al gusto.</li>
+                    <li class="list-group-item">Deja cocinar a fuego lento durante 20 minutos, removiendo
+                        ocasionalmente, hasta que el pollo esté bien cocido.</li>
+                    <li class="list-group-item">Sirve caliente con arroz o pan naan.</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <h1>Sopa de Tomate</h1>
+                <img src="./SopaTomate.jpg" class="img-fluid" alt="img-fluid">
+                <h2>Ingredientes:</h2>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action">6 tomates grandes, pelados y picados</li>
+                    <li class="list-group-item list-group-item-action">1 cebolla, picada</li>
+                    <li class="list-group-item list-group-item-action">2 dientes de ajo, picados</li>
+                    <li class="list-group-item list-group-item-action">1 zanahoria, picada</li>
+                    <li class="list-group-item list-group-item-action">750 ml de caldo de verduras</li>
+                    <li class="list-group-item list-group-item-action">2 cucharadas de aceite de oliva</li>
+                    <li class="list-group-item list-group-item-action">Sal y pimienta al gusto</li>
+                    <li class="list-group-item list-group-item-action">Hojas de albahaca fresca (opcional)</li>
+                </ul>
+                <h2>Instrucciones:</h2>
+                <ul class="list-group list-group-numbered">
+                    <li class="list-group-item">Calienta el aceite de oliva en una cacerola grande y sofríe la
+                        cebolla y el ajo hasta que estén suaves.</li>
+                    <li class="list-group-item">Añade la zanahoria picada y los tomates, y cocina durante 10
+                        minutos.</li>
+                    <li class="list-group-item">Vierte el caldo de verduras y lleva la mezcla a ebullición. Reduce
+                        el fuego y deja cocinar a fuego lento durante 20 minutos.</li>
+                    <li class="list-group-item">Tritura la sopa con una licuadora de mano o en una licuadora
+                        tradicional hasta que esté suave.</li>
+                    <li class="list-group-item">Sazona con sal y pimienta al gusto. Si lo deseas, adorna con hojas
+                        de albahaca fresca antes de servir.</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <h1>Panqueques</h1>
+                <img src="./Panquques.jpg" class="img-fluid" alt="img-fluid">
+                <h2>Ingredientes:</h2>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action">200 g de harina</li>
+                    <li class="list-group-item list-group-item-action">1 cucharada de azúcar</li>
+                    <li class="list-group-item list-group-item-action">2 cucharaditas de polvo de hornear</li>
+                    <li class="list-group-item list-group-item-action">1/2 cucharadita de sal</li>
+                    <li class="list-group-item list-group-item-action">250 ml de leche</li>
+                    <li class="list-group-item list-group-item-action">2 huevos</li>
+                    <li class="list-group-item list-group-item-action">2 cucharadas de mantequilla derretida</li>
+                    <li class="list-group-item list-group-item-action">1 cucharadita de extracto de vainilla</li>
+                </ul>
+                <h2>Instrucciones:</h2>
+                <ul class="list-group list-group-numbered">
+                    <li class="list-group-item">En un bol, mezcla la harina, el azúcar, el polvo de hornear y la
+                        sal.</li>
+                    <li class="list-group-item">En otro bol, bate los huevos y añade la leche, la mantequilla
+                        derretida y el extracto de vainilla.</li>
+                    <li class="list-group-item">Vierte los ingredientes líquidos en los secos y mezcla hasta obtener
+                        una masa homogénea.</li>
+                    <li class="list-group-item">Calienta una sartén antiadherente a fuego medio y vierte un poco de
+                        masa en el centro.</li>
+                    <li class="list-group-item">Cocina hasta que aparezcan burbujas en la superficie, luego voltea y
+                        cocina por el otro lado hasta dorar.</li>
+                    <li class="list-group-item">Sirve los panqueques con tus acompañamientos favoritos como miel,
+                        frutas o jarabe de arce</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <h1>Tacos de Carne Asada</h1>
+                <img src="./TacosCarneAsada.jpeg" class="img-fluid" alt="img-fluid">
+                <h2>Ingredientes:</h2>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action">500 g de carne de res (preferiblemente
+                        arrachera), en tiras</li>
+                    <li class="list-group-item list-group-item-action">2 cucharadas de jugo de limón</li>
+                    <li class="list-group-item list-group-item-action">2 dientes de ajo, picados</li>
+                    <li class="list-group-item list-group-item-action">1 cucharadita de comino molido</li>
+                    <li class="list-group-item list-group-item-action">1 cucharadita de orégano seco</li>
+                    <li class="list-group-item list-group-item-action">2 cucharadas de aceite de oliva</li>
+                    <li class="list-group-item list-group-item-action">Sal y pimienta al gusto</li>
+                    <li class="list-group-item list-group-item-action">Tortillas de maíz</li>
+                    <li class="list-group-item list-group-item-action">Cilantro fresco, picado</li>
+                    <li class="list-group-item list-group-item-action">Cebolla picada</li>
+                    <li class="list-group-item list-group-item-action">Salsa al gusto</li>
+                    <li class="list-group-item list-group-item-action">Limones para acompañar</li>
+                </ul>
+                <h2>Instrucciones:</h2>
+                <ul class="list-group list-group-numbered">
+                    <li class="list-group-item">En un bol grande, mezcla el jugo de limón, el ajo, el comino, el
+                        orégano, el aceite de oliva, sal y pimienta.</li>
+                    <li class="list-group-item">Añade las tiras de carne y mezcla bien. Deja marinar en el
+                        refrigerador por al menos 30 minutos.</li>
+                    <li class="list-group-item">Calienta una parrilla o sartén a fuego alto y cocina la carne
+                        marinada hasta que esté dorada y bien cocida.</li>
+                    <li class="list-group-item">Calienta las tortillas de maíz en una sartén o directamente en la
+                        parrilla.</li>
+                    <li class="list-group-item">Sirve la carne en las tortillas y añade cilantro, cebolla y salsa al
+                        gusto.</li>
+                    <li class="list-group-item">Acompaña con limones para exprimir sobre los tacos antes de
+                        disfrutar.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
